@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #E6B4BE;
+    font-size: 24px;
   }
   
   header {
@@ -36,6 +37,11 @@ body {
   
   section {
     padding: 2rem;
+    flex: 1;
+  }
+
+  #tools {
+    background-color: #F0E5E9;
   }
   
   #about {
@@ -43,10 +49,6 @@ body {
   }
   
   #projects {
-    background-color: #F0E5E9;
-  }
-  
-  #tools {
     background-color: #F0E5E9;
   }
   
@@ -75,7 +77,7 @@ body {
   }
   
   .header h1 {
-    font-size: 24px;
+    font-size: 28px;
     margin: 0;
     color: #FFF6ED;
   }
@@ -103,14 +105,14 @@ body {
     justify-content: center; 
     padding: 2rem;
     background-color: #E6B4BE;
-    margin-top: 5rem;
     margin-bottom: 0;
+    min-height: calc(100vh - 4rem);
     overflow: auto;
   }
   
   .profile-image-container {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
@@ -159,8 +161,8 @@ body {
   }
   
   .tools-icons img {
-    width: 62px;
-    height: 62px;
+    width: 98px;
+    height: 98px;
   }
 
   .course-links {
@@ -175,7 +177,7 @@ body {
   }
 
   .course-links img {
-    width: 290px;
-    height: 160px;
+    width: 340px;
+    height: 200px;
   }
   
