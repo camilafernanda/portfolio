@@ -1,0 +1,181 @@
+body {
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E6B4BE;
+  }
+  
+  header {
+    background-color: #490321;
+    padding: 1rem;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 2rem;
+  }
+  
+  #about {
+    background-color: #FFF6ED;
+  }
+  
+  #projects {
+    background-color: #F0E5E9;
+  }
+  
+  #tools {
+    background-color: #F0E5E9;
+  }
+  
+  #contacts {
+    background-color: #E6B4BE;
+  }
+  
+  footer {
+    background-color: #490321;
+    color: white;
+    padding: 1rem;
+    margin-top: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .header {
+    background-color: #490321;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #FFF6ED;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-right ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-right ul li {
+    margin-left: 1rem;
+  }
+
+  #profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding: 2rem;
+    background-color: #E6B4BE;
+    margin-top: 5rem;
+    margin-bottom: 0;
+    overflow: auto;
+  }
+  
+  .profile-image-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .profile-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  #profile h1 {
+    margin-top: 1rem;
+    margin-bottom: 0; 
+  }
+
+  #profile p {
+    margin-top: 0;
+    margin-bottom: 0; 
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.2rem;
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    margin: 0 0.25rem;
+  }
+  
+  .social-icons img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .tools-icons {
+    display: flex;
+    margin-top: 0.2rem;
+  }
+  
+  .tools-icons a {
+    text-decoration: none;
+    margin: 0 0.25rem;
+  }
+  
+  .tools-icons img {
+    width: 62px;
+    height: 62px;
+  }
+
+  .course-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .course-links a {
+    text-decoration: none;
+    margin: 0 0.25rem;
+  }
+
+  .course-links img {
+    width: 290px;
+    height: 160px;
+  }
+  
