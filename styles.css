@@ -47,6 +47,10 @@ body {
   #about {
     background-color: #FFF6ED;
   }
+
+  #about h2 {
+    margin-top: 50px;
+  }
   
   #projects {
     background-color: #F0E5E9;
@@ -61,6 +65,10 @@ body {
     color: white;
     padding: 1rem;
     margin-top: 0;
+  }
+
+  footer p {
+    font-size: 18px;
   }
   
   img {
@@ -146,8 +154,8 @@ body {
   }
   
   .social-icons img {
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
   }
 
   .tools-icons {
